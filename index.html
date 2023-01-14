@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>MakiFM</title>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- PRESS THE MENU BUTTON TO TRIGGER ANIMATION -->
+<!-- PRESS PLAY BUTTON TO LISTEN THE DEMO SONG -->
+
+<!-- As seen on: "https://dribbble.com/shots/2144866-Day-5-Music-Player-Rebound/" -->
+
+<!-- THANK YOU! -->
+
+<article class="screen">
+  <input type="checkbox" value="None" id="magicButton" name="check" />
+
+  <div class="coverImage"></div>
+  <div class="bodyPlayer"></div>
+
+				
+			<div class="shadow"></div>
+				
+				<div class="bar"></div>
+				
+				<div class="info">
+					<h4>LOFI HIHOP</h4>
+					<h3>Smooth, relaxing, chill beats.</h3>
+				</div>
+<audio preload="auto" id="audio" controls>
+  <source src="https://stream-27.zeno.fm/0r0xa792kwzuv?zs=6e50t0dISimzua4uMby4jg">
+	</audio>
+				<table class="player">
+					<td><input type="checkbox" id="play" title="Play" onclick="togglePlayPause()"/><label class="play" for="play"></label></td>	
+				</table>
+			
+				
+				<div class="current"><h2>LOFI HIHOP</h2></div>
+				
+			
+		</article>
+<!-- partial -->
+  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
